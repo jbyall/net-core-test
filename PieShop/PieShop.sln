@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieShop", "PieShop\PieShop.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{18EC611A-7D7A-4A18-AD69-25EFD1229743}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{1C457A54-C3EF-449E-BECD-8FD2B23E6C5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{18EC611A-7D7A-4A18-AD69-25EFD1229743}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18EC611A-7D7A-4A18-AD69-25EFD1229743}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18EC611A-7D7A-4A18-AD69-25EFD1229743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C457A54-C3EF-449E-BECD-8FD2B23E6C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C457A54-C3EF-449E-BECD-8FD2B23E6C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C457A54-C3EF-449E-BECD-8FD2B23E6C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C457A54-C3EF-449E-BECD-8FD2B23E6C5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

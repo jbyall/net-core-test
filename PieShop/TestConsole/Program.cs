@@ -10,7 +10,9 @@ namespace TestConsole
         static void Main(string[] args)
         {
             // Use the app settings configuration file
-            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory()) // For MVC this would be env.ContentRootPath
+                .AddJsonFile("appsettings.json");
             Configuration = builder.Build();
             // Read the string from the appsettings.json file
             Console.WriteLine($"{Configuration["Greeting"]}");
